@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  api_desafio.api:
+    image: ${DOCKER_REGISTRY-}apidesafioapi
+    build:
+      context: .
+      dockerfile: API_Desafio.API/Dockerfile
