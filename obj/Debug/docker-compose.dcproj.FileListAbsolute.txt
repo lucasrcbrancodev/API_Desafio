@@ -49,3 +49,7 @@ C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\bin\Debug\
 C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\bin\Debug\API_Desafio.Infrastructure.pdb
 C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\obj\Debug\docker-c.35A3FFBA.Up2Date
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\bin\Debug\Microsoft.OpenApi.dll

@@ -4,6 +4,7 @@ using API_Desafio.Domain.Models;
 using API_Desafio.Infrastructure._Extensions;
 using API_Desafio.Infrastructure.Data;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,6 +23,10 @@ builder.Services
     {
         opt.LoginPath = "/Auth/Login";
     });
+
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
@@ -152,5 +157,8 @@ if (pendingMigrations.Any(m => m.Contains("Initial")))
         }
     }
 }
+
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.Run();
