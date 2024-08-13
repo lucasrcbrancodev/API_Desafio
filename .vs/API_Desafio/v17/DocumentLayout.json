@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\LUCASRODRIGUESCASTELOBRANCO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E9763EF-5654-4B00-B689-3651AA34EEC1}|API_Desafio.API\\API_Desafio.API.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\lucasrodriguescastelobranco\\api_desafio.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E9763EF-5654-4B00-B689-3651AA34EEC1}|API_Desafio.API\\API_Desafio.API.csproj|solutionrelative:api_desafio.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E9763EF-5654-4B00-B689-3651AA34EEC1}|API_Desafio.API\\API_Desafio.API.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\lucasrodriguescastelobranco\\api_desafio.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E9763EF-5654-4B00-B689-3651AA34EEC1}|API_Desafio.API\\API_Desafio.API.csproj|solutionrelative:api_desafio.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E9763EF-5654-4B00-B689-3651AA34EEC1}|API_Desafio.API\\API_Desafio.API.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\lucasrodriguescastelobranco\\api_desafio.api\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1E9763EF-5654-4B00-B689-3651AA34EEC1}|API_Desafio.API\\API_Desafio.API.csproj|solutionrelative:api_desafio.api\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{451D6318-30AD-411D-B802-1BD55FFD0DC0}|API_Desafio.ApplicationServices\\API_Desafio.Application.csproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\lucasrodriguescastelobranco\\api_desafio.applicationservices\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{451D6318-30AD-411D-B802-1BD55FFD0DC0}|API_Desafio.ApplicationServices\\API_Desafio.Application.csproj|solutionrelative:api_desafio.applicationservices\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14FF6502-BEFF-4522-A3F1-DBFC2B9B73EB}|docker-compose.dcproj|c:\\users\\lucas\\onedrive\\\u00E1rea de trabalho\\lucasrodriguescastelobranco\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{14FF6502-BEFF-4522-A3F1-DBFC2B9B73EB}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\LUCASRODRIGUESCASTELOBRANCO\\API_Desafio.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "API_Desafio.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\LUCASRODRIGUESCASTELOBRANCO\\API_Desafio.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "API_Desafio.API\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwCAAAAA8AAAA",
+              "DocumentIndex": 1,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\LUCASRODRIGUESCASTELOBRANCO\\API_Desafio.ApplicationServices\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "API_Desafio.ApplicationServices\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\LUCASRODRIGUESCASTELOBRANCO\\API_Desafio.ApplicationServices\\Services\\AuthService.cs",
+              "RelativeToolTip": "API_Desafio.ApplicationServices\\Services\\AuthService.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowDwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T00:21:41.333Z",
+              "WhenOpened": "2024-08-13T00:42:31.574Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\LUCASRODRIGUESCASTELOBRANCO\\API_Desafio.API\\Views\\Auth\\Login.cshtml",
-              "RelativeDocumentMoniker": "API_Desafio.API\\Views\\Auth\\Login.cshtml",
-              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\LUCASRODRIGUESCASTELOBRANCO\\API_Desafio.API\\Views\\Auth\\Login.cshtml",
-              "RelativeToolTip": "API_Desafio.API\\Views\\Auth\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-13T00:20:30.295Z",
+              "DocumentIndex": 2,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\LUCASRODRIGUESCASTELOBRANCO\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\LUCASRODRIGUESCASTELOBRANCO\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-08-13T00:41:05.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\LUCASRODRIGUESCASTELOBRANCO\\API_Desafio.API\\Program.cs",
+              "RelativeDocumentMoniker": "API_Desafio.API\\Program.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\\u00C1rea de Trabalho\\LUCASRODRIGUESCASTELOBRANCO\\API_Desafio.API\\Program.cs",
+              "RelativeToolTip": "API_Desafio.API\\Program.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEQAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T00:41:04.111Z",
               "EditorCaption": ""
             }
           ]

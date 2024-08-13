@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API_Desafio.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7dce91ade78bb74a7cb820fcb32ba959b33df15")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70f287bc5824a12cac78b2f4b926de13b52fc25d")]
 [assembly: System.Reflection.AssemblyProductAttribute("API_Desafio.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API_Desafio.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -6,26 +6,27 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_HTTP_PORTS=8080
       - ASPNETCORE_HTTPS_PORTS=8081
-      - Connection_Strings__Default=Host=db;Port=5432;Database=ApiDesafio;Username=super;Password=SUP3RUS3R!
+      - ConnectionStrings__Default=Host=api.db;Port=5432;Database=ApiDesafio;Username=postgres;Password=postgres
     ports:
-      - "8080"
-      - "8081"
+      - "7070:8080"
+      - "7071:8081"
     volumes:
       - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
       - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
     depends_on:
-        - db
+        - api.db
 
-  db:
-    image: postgres
-    restart: always
-    shm_size: 128mb
+  api.db:
+    container_name: api.db
     environment:
-        POSTGRES_DB: ApiDesafio
-        POSTGRES_USER: super
-        POSTGRES_PASSWORD: SUP3RUS3R!
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=ApiDesafio
+    restart: always
     ports:
-        - "5432:5432"
+        - "5433:5432"
+    volumes:
+      - ./postgres_api.db:/var/lib/postgresql/data/ 
 
   adminer:
     image: adminer

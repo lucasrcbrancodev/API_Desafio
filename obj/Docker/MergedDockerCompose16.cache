@@ -1,0 +1,74 @@
+name: dockercompose11268570515209604714
+services:
+  adminer:
+    image: adminer
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "8080"
+        protocol: tcp
+    restart: always
+  api.db:
+    container_name: api.db
+    environment:
+      POSTGRES_DB: ApiDesafio
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+    image: postgres
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5433"
+        protocol: tcp
+    restart: always
+    volumes:
+      - type: bind
+        source: C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\postgres_api.db
+        target: /var/lib/postgresql/data
+        bind:
+          create_host_path: true
+  api_desafio.api:
+    build:
+      context: C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO
+      dockerfile: API_Desafio.API/Dockerfile
+    depends_on:
+      api.db:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+      ConnectionStrings__Default: Host=api.db;Port=5432;Database=ApiDesafio;Username=postgres;Password=postgres
+    image: apidesafioapi
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "7070"
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        published: "7071"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\lucas\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\lucas\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+networks:
+  default:
+    name: dockercompose11268570515209604714_default

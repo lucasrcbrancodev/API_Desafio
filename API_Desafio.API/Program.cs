@@ -66,7 +66,7 @@ if (pendingMigrations.Any(m => m.Contains("Initial")))
 
             loginInformation: new LoginInformation(
                 Username: "superadmin",
-                Password: "LB7RXjyjRbe0Uy4F9PGLahahqCVRxAKhDgMS/969rxo=",
+                Password: "7DJB4tD+MOK+VU/iiKJCRRsGhcKSzZiRac4ndVSGAaA=",
                 Salt: "S3CR3TS4LT!",
                 SHA256: "Not Informed"),
 

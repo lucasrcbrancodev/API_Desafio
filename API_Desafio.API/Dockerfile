@@ -10,6 +10,9 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["API_Desafio.API/API_Desafio.API.csproj", "API_Desafio.API/"]
+COPY ["API_Desafio.ApplicationServices/API_Desafio.Application.csproj", "API_Desafio.ApplicationServices/"]
+COPY ["API_Desafio.Domain/API_Desafio.Domain.csproj", "API_Desafio.Domain/"]
+COPY ["API_Desafio.Infrastructure/API_Desafio.Infrastructure.csproj", "API_Desafio.Infrastructure/"]
 RUN dotnet restore "./API_Desafio.API/API_Desafio.API.csproj"
 COPY . .
 WORKDIR "/src/API_Desafio.API"

@@ -6,3 +6,6 @@ services:
     build:
       context: .
       dockerfile: API_Desafio.API/Dockerfile
+
+  api.db:
+    image: postgres
