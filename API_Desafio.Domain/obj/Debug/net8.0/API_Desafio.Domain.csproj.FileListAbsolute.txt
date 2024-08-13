@@ -1,0 +1,12 @@
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.Domain\bin\Debug\net8.0\API_Desafio.Domain.deps.json
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.Domain\bin\Debug\net8.0\API_Desafio.Domain.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.Domain\bin\Debug\net8.0\API_Desafio.Domain.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.Domain\obj\Debug\net8.0\API_Desafio.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.Domain\obj\Debug\net8.0\API_Desafio.Domain.AssemblyInfoInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.Domain\obj\Debug\net8.0\API_Desafio.Domain.AssemblyInfo.cs
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.Domain\obj\Debug\net8.0\API_Desafio.Domain.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.Domain\obj\Debug\net8.0\API_Desafio.Domain.sourcelink.json
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.Domain\obj\Debug\net8.0\API_Desafio.Domain.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.Domain\obj\Debug\net8.0\refint\API_Desafio.Domain.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.Domain\obj\Debug\net8.0\API_Desafio.Domain.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.Domain\obj\Debug\net8.0\ref\API_Desafio.Domain.dll

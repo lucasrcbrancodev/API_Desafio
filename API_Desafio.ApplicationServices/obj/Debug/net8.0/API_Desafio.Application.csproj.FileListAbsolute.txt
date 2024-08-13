@@ -1,0 +1,16 @@
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.ApplicationServices\bin\Debug\net8.0\API_Desafio.Application.deps.json
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.ApplicationServices\bin\Debug\net8.0\API_Desafio.Application.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.ApplicationServices\bin\Debug\net8.0\API_Desafio.Application.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.ApplicationServices\bin\Debug\net8.0\API_Desafio.Domain.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.ApplicationServices\bin\Debug\net8.0\API_Desafio.Domain.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.ApplicationServices\obj\Debug\net8.0\API_Desafio.Application.csproj.AssemblyReference.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.ApplicationServices\obj\Debug\net8.0\API_Desafio.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.ApplicationServices\obj\Debug\net8.0\API_Desafio.Application.AssemblyInfoInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.ApplicationServices\obj\Debug\net8.0\API_Desafio.Application.AssemblyInfo.cs
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.ApplicationServices\obj\Debug\net8.0\API_Desafio.Application.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.ApplicationServices\obj\Debug\net8.0\API_Desafio.Application.sourcelink.json
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.ApplicationServices\obj\Debug\net8.0\API_Desa.6A220CD3.Up2Date
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.ApplicationServices\obj\Debug\net8.0\API_Desafio.Application.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.ApplicationServices\obj\Debug\net8.0\refint\API_Desafio.Application.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.ApplicationServices\obj\Debug\net8.0\API_Desafio.Application.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\LUCASRODRIGUESCASTELOBRANCO\API_Desafio.ApplicationServices\obj\Debug\net8.0\ref\API_Desafio.Application.dll

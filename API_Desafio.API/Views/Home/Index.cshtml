@@ -1,4 +1,6 @@
-﻿@using API_Desafio.ApplicationServices.Dtos
+﻿@using API_Desafio.Application.Services
+@using API_Desafio.ApplicationServices.Dtos
+@inject ITokenProvider tokenProvider
 
 @model IEnumerable<UserDto>
 
@@ -6,50 +8,57 @@
     ViewData["Title"] = "API Desafio";
 }
 
-<div class="card shadow border-0 mt-4">
-    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
-        <div class="row">
-            <div class="col-12 text-center">
-                <h1 class="text-white">List of Users</h1>
+@if (!string.IsNullOrEmpty(tokenProvider.GetToken()))
+{
+    <div class="card shadow border-0 mt-4">
+        <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="text-white">List of Users</h1>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="card-body p-4">
-        <div class="row pb-3">
-            <div class="col-6">
+        <div class="card-body p-4">
+            <div class="row pb-3">
+                <div class="col-6">
+                </div>
             </div>
-        </div>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th> Username </th>
-                    <th> Email </th>
-                    <th> Name </th>
-                    <th> Age </th>
-                    <th> Date of Birth </th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var item in Model)
-                {
+            <table class="table">
+                <thead>
                     <tr>
-                        <td> @item.Username </td>
-                        <td> @item.Email </td>
-                        <td> @item.Name </td>
-                        <td> @item.DateOfBirthInformation.Age</td>
-                        <td> @item.DateOfBirthInformation.DateOfBirth.Date</td>
-                        <td>
-                            <a class="btn btn-success" asp-controller="User" asp-action="EditUser" asp-route-userId="@item.Id">
-                                <i class="bi bi-pencil-square"></i>
-                            </a>
-                        </td>
-                        <td></td>
+                        <th> Username </th>
+                        <th> Email </th>
+                        <th> Name </th>
+                        <th> Age </th>
+                        <th> Date of Birth </th>
                     </tr>
-                }
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td> @item.Username </td>
+                            <td> @item.Email </td>
+                            <td> @item.Name </td>
+                            <td> @item.DateOfBirthInformation.Age</td>
+                            <td> @item.DateOfBirthInformation.DateOfBirth.Date</td>
+                            <td>
+                                <a class="btn btn-success" asp-controller="User" asp-action="EditUser" asp-route-userId="@item.Id">
+                                    <i class="bi bi-pencil-square"></i>
+                                </a>
+                            </td>
+                            <td></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
     </div>
-</div>
+}
+else
+{
+    <h1>Please Login First in Order to See the Users...</h1>
+}
 
 
 @section Scripts {

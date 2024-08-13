@@ -3,6 +3,7 @@ using API_Desafio.ApplicationServices.Users;
 using API_Desafio.Domain.Models;
 using API_Desafio.Infrastructure._Extensions;
 using API_Desafio.Infrastructure.Data;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,7 +14,14 @@ builder.Services.AddHttpClient();
 
 builder.Services.ConfigureDatabase(builder.Configuration);
 builder.Services.AddInfrastructureServices();
-builder.Services.AddApplicationServices();
+builder.Services.AddApplicationServices(builder.Configuration);
+
+builder.Services
+    .AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(opt =>
+    {
+        opt.LoginPath = "/Auth/Login";
+    });
 
 var app = builder.Build();
 
@@ -58,8 +66,8 @@ if (pendingMigrations.Any(m => m.Contains("Initial")))
 
             loginInformation: new LoginInformation(
                 Username: "superadmin",
-                Password: "sup3r4dm1n!",
-                Salt: "Not Informed",
+                Password: "LB7RXjyjRbe0Uy4F9PGLahahqCVRxAKhDgMS/969rxo=",
+                Salt: "S3CR3TS4LT!",
                 SHA256: "Not Informed"),
 
             locationInformation: new LocationInformation(
